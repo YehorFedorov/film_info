@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    height: 120px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.centeredPos {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-form {
+    border: none;
+}
+
+@media (max-width: 955px) {
+    .navbar-right {
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+}
